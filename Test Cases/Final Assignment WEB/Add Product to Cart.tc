@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Product to Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63f59764-1e34-403a-9567-5d613f8bee14</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a65adb56-21e3-466c-9c2e-30bda862d525</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/FinalProjWeb</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>02e4cac5-efeb-4978-9b9b-19826d4daff5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b275b48-edd9-4053-8cba-94c6d8c26a85</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>02e4cac5-efeb-4978-9b9b-19826d4daff5</id>
+      <masked>false</masked>
+      <name>color</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5b275b48-edd9-4053-8cba-94c6d8c26a85</id>
+      <masked>false</masked>
+      <name>qty</name>
+   </variable>
+</TestCaseEntity>

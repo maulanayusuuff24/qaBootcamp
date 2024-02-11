@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_1,188.00</name>
+   <tag></tag>
+   <elementGuidId>6cc99e16-fab1-4ab0-a590-118a6d55aa96</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.roboto-medium.totalValue.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='userCart']/div[2]/label[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fed04f41-3681-4d83-916b-0ce83b39d16e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>roboto-medium totalValue ng-binding</value>
+      <webElementGuid>bf8a31bb-78f0-4074-8e8d-6151b50fe03e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$1,188.00</value>
+      <webElementGuid>0c1bd0e3-f7ee-4bbc-a829-c4e20a856631</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;userCart&quot;)/div[@class=&quot;penetrationInCart&quot;]/label[@class=&quot;roboto-bold totalText ng-binding&quot;]/span[@class=&quot;roboto-medium totalValue ng-binding&quot;]</value>
+      <webElementGuid>3c6c533a-12aa-407d-a85f-250daad61a68</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='userCart']/div[2]/label[2]/span</value>
+      <webElementGuid>0e9c90e9-d2fe-4646-ad52-e2d7077e0834</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$50.00'])[1]/following::span[1]</value>
+      <webElementGuid>05e3cf25-d20c-4106-8d7e-d75c3d2c43a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thank you for buying with Advantage'])[1]/preceding::span[1]</value>
+      <webElementGuid>9eacb595-f56f-420a-9070-36ef2dfc5a8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/preceding::span[2]</value>
+      <webElementGuid>a35eeea1-8a43-41f2-83a5-9704cd42784f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='$1,188.00']/parent::*</value>
+      <webElementGuid>b07429dc-d3d7-4ca1-b549-2e7e351a0657</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/label[2]/span</value>
+      <webElementGuid>64a1045d-d0c0-4316-864e-f2f050aedcfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '$1,188.00' or . = '$1,188.00')]</value>
+      <webElementGuid>128844e6-d890-4873-b4b7-4a06c3c3e481</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,64 @@
+1
+00:00:00,246 --> 00:00:01,455
+1. openBrowser("")
+
+2
+00:00:01,456 --> 00:00:03,188
+5. navigateToUrl(webfinal)
+
+3
+00:00:03,188 --> 00:00:10,651
+9. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:10,652 --> 00:00:11,633
+13. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_OR_username"), username)
+
+5
+00:00:11,634 --> 00:00:13,115
+17. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password"), password)
+
+6
+00:00:13,115 --> 00:00:13,577
+21. sendKeys(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password"), Keys.chord(ENTER))
+
+7
+00:00:13,578 --> 00:00:16,135
+25. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/div_SPEAKERS                        Shop Now"))
+
+8
+00:00:16,136 --> 00:00:18,622
+29. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25"))
+
+9
+00:00:18,623 --> 00:00:21,774
+33. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/button_ADD TO CART"))
+
+10
+00:00:21,774 --> 00:00:24,027
+37. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/button_CHECKOUT  (1,138.00)"))
+
+11
+00:00:24,027 --> 00:00:28,195
+41. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/button_NEXT"))
+
+12
+00:00:28,196 --> 00:00:28,198
+45. if (paymentMethod == "safepay")
+
+13
+00:00:28,199 --> 00:00:29,416
+1. setText(findTestObject("FinalWeb/Page_Advantage Shopping/input__safepay_username"), "uname")
+
+14
+00:00:29,417 --> 00:00:30,112
+5. setEncryptedText(findTestObject("FinalWeb/Page_Advantage Shopping/input__safepay_password"), "c5s7CZtvJJc=")
+
+15
+00:00:30,112 --> 00:00:30,980
+9. click(findTestObject("FinalWeb/Page_Advantage Shopping/button_PAY NOW_PAY"))
+
+16
+00:00:30,981 --> 00:00:33,197
+49. verifyElementText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/span_Thank you for buying with Advantage"), "Thank you for buying with Advantage")
+

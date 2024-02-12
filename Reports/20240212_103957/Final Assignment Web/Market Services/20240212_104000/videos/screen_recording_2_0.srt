@@ -1,0 +1,80 @@
+1
+00:00:00,003 --> 00:00:00,846
+1. openBrowser("")
+
+2
+00:00:00,847 --> 00:00:04,395
+5. navigateToUrl(webfinal)
+
+3
+00:00:04,396 --> 00:00:10,664
+9. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:10,666 --> 00:00:11,678
+13. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_OR_username"), username)
+
+5
+00:00:11,679 --> 00:00:13,754
+17. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password"), password)
+
+6
+00:00:13,755 --> 00:00:14,321
+21. sendKeys(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password"), Keys.chord(ENTER))
+
+7
+00:00:14,329 --> 00:00:15,575
+25. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/div_SPEAKERS                        Shop Now"))
+
+8
+00:00:15,576 --> 00:00:21,406
+29. mouseOver(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25"))
+
+9
+00:00:21,407 --> 00:00:21,776
+33. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25"))
+
+10
+00:00:21,776 --> 00:00:21,779
+37. if (color == "tosca")
+
+11
+00:00:21,779 --> 00:00:29,633
+1. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/span_Color_tosca"))
+
+12
+00:00:29,634 --> 00:00:29,635
+41. if (color == "black")
+
+13
+00:00:29,636 --> 00:00:29,639
+45. if (color == "red")
+
+14
+00:00:29,640 --> 00:00:29,991
+2. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/span_Color_blue"))
+
+15
+00:00:29,992 --> 00:00:30,600
+49. click(findTestObject("FinalWeb/Page_Advantage Shopping/input_Quantity_quantity"))
+
+16
+00:00:30,601 --> 00:00:30,970
+53. sendKeys(findTestObject("FinalWeb/Page_Advantage Shopping/input_Quantity_quantity"), Keys.chord(BACK_SPACE))
+
+17
+00:00:30,971 --> 00:00:31,881
+57. setText(findTestObject("FinalWeb/Page_Advantage Shopping/input_Quantity_quantity"), qty)
+
+18
+00:00:31,882 --> 00:00:32,252
+61. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/button_ADD TO CART"))
+
+19
+00:00:32,253 --> 00:00:34,525
+65. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/button_CHECKOUT  (516.00)"))
+
+20
+00:00:34,526 --> 00:00:38,791
+69. verifyElementPresent(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/h3_ORDER PAYMENT"), 0)
+

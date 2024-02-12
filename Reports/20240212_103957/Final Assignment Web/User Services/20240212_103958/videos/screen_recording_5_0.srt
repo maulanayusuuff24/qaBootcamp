@@ -1,0 +1,28 @@
+1
+00:00:00,002 --> 00:00:00,993
+1. openBrowser("")
+
+2
+00:00:00,994 --> 00:00:04,478
+5. navigateToUrl(webfinal)
+
+3
+00:00:04,478 --> 00:00:10,574
+9. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:10,574 --> 00:00:11,609
+13. setText(findTestObject("FinalWeb/Page_Advantage Shopping/input_OR_username"), username)
+
+5
+00:00:11,609 --> 00:00:13,125
+17. setText(findTestObject("FinalWeb/Page_Advantage Shopping/input_Username_password"), password)
+
+6
+00:00:13,126 --> 00:00:13,604
+21. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/button_SIGN IN"))
+
+7
+00:00:13,605 --> 00:00:16,371
+25. verifyTextPresent(username, false)
+

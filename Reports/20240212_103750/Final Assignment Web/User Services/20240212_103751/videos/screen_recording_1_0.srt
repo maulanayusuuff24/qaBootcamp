@@ -1,0 +1,20 @@
+1
+00:00:00,477 --> 00:00:02,767
+1. openBrowser("")
+
+2
+00:00:02,776 --> 00:00:04,626
+5. navigateToUrl(webfinal)
+
+3
+00:00:04,626 --> 00:00:04,741
+9. waitForPageLoad(3)
+
+4
+00:00:04,742 --> 00:00:10,119
+13. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+
+5
+00:00:10,119 --> 00:00:10,665
+17. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/a_CREATE NEW ACCOUNT"))
+

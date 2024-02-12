@@ -1,0 +1,84 @@
+1
+00:00:00,451 --> 00:00:02,658
+1. openBrowser("")
+
+2
+00:00:02,671 --> 00:00:06,194
+5. navigateToUrl(webfinal)
+
+3
+00:00:06,195 --> 00:00:06,328
+9. waitForPageLoad(3)
+
+4
+00:00:06,329 --> 00:00:10,821
+13. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+
+5
+00:00:10,823 --> 00:00:11,858
+17. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/a_CREATE NEW ACCOUNT"))
+
+6
+00:00:11,859 --> 00:00:16,241
+21. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input__usernameRegisterPage"), username)
+
+7
+00:00:16,243 --> 00:00:17,436
+25. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input__emailRegisterPage"), email)
+
+8
+00:00:17,437 --> 00:00:18,749
+29. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input__passwordRegisterPage"), password)
+
+9
+00:00:18,749 --> 00:00:20,017
+33. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input__confirm_passwordRegisterPage"), cpassword)
+
+10
+00:00:20,018 --> 00:00:21,223
+37. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage"), firstName)
+
+11
+00:00:21,224 --> 00:00:22,389
+41. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033"), lastName)
+
+12
+00:00:22,389 --> 00:00:23,759
+45. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a"), phone)
+
+13
+00:00:23,761 --> 00:00:29,405
+49. selectOptionByLabel(findTestObject("FinalWeb/Page_Advantage Shopping/Select Country"), country, true)
+
+14
+00:00:29,406 --> 00:00:30,330
+53. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_Country_cityRegisterPage"), city)
+
+15
+00:00:30,331 --> 00:00:31,514
+57. setText(findTestObject("FinalWeb/Page_Advantage Shopping/AlamatRumah"), address)
+
+16
+00:00:31,515 --> 00:00:32,705
+61. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54"), state)
+
+17
+00:00:32,705 --> 00:00:33,957
+65. setText(findTestObject("FinalWeb/Page_Advantage Shopping/kkodepos"), "133")
+
+18
+00:00:33,958 --> 00:00:33,967
+69. if (offer == 1)
+
+19
+00:00:33,968 --> 00:00:33,973
+2. println("lanjut")
+
+20
+00:00:33,974 --> 00:00:34,599
+73. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/TnCbox"))
+
+21
+00:00:34,601 --> 00:00:35,150
+77. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/button_REGISTER"))
+

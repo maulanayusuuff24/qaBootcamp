@@ -19,7 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://advantageonlineshopping.com/')
+WebUI.navigateToUrl(GlobalVariable.webfinal)
+
+WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser'))
+
+WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input_OR_username'), username)
+
+WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password'), password)
+
+WebUI.sendKeys(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password'), Keys.chord(
+        Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/div_SPEAKERS                        Shop Now'))
 
@@ -28,22 +37,24 @@ WebUI.mouseOver(findTestObject('Object Repository/FinalWeb/Page_Advantage Shoppi
 WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25'))
 
 if (color == 'tosca') {
-	WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/span_Color_tosca'))
-} 
+    WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/span_Color_tosca'))
+}
+
 if (color == 'black') {
-	WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/span_Color_black'))
-	
+    WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/span_Color_black'))
 }
+
 if (color == 'red') {
-	WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/span_Color_red'))
-	
-}
-else {
-	WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/span_Color_blue'))
+    WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/span_Color_red'))
+} else {
+    WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/span_Color_blue'))
 }
 
+WebUI.click(findTestObject('FinalWeb/Page_Advantage Shopping/input_Quantity_quantity'))
 
-WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/address'), qty)
+WebUI.sendKeys(findTestObject('FinalWeb/Page_Advantage Shopping/input_Quantity_quantity'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/input_Quantity_quantity'), qty)
 
 WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/button_ADD TO CART'))
 

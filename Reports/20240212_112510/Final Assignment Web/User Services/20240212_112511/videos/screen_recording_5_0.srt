@@ -1,0 +1,12 @@
+1
+00:00:00,001 --> 00:00:00,849
+1. openBrowser("")
+
+2
+00:00:00,850 --> 00:00:02,669
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:02,670 --> 00:00:03,417
+9. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+

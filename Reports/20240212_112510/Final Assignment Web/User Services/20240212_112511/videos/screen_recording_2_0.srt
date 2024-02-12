@@ -1,0 +1,60 @@
+1
+00:00:00,002 --> 00:00:00,860
+1. openBrowser("")
+
+2
+00:00:00,860 --> 00:00:04,799
+5. navigateToUrl(webfinal)
+
+3
+00:00:04,800 --> 00:00:04,831
+9. waitForPageLoad(3)
+
+4
+00:00:04,831 --> 00:00:10,856
+13. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+
+5
+00:00:10,857 --> 00:00:13,588
+17. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/a_CREATE NEW ACCOUNT"))
+
+6
+00:00:13,589 --> 00:00:20,218
+21. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input__usernameRegisterPage"), username)
+
+7
+00:00:20,228 --> 00:00:21,894
+25. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input__emailRegisterPage"), email)
+
+8
+00:00:21,894 --> 00:00:23,101
+29. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input__passwordRegisterPage"), password)
+
+9
+00:00:23,101 --> 00:00:24,407
+33. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input__confirm_passwordRegisterPage"), cpassword)
+
+10
+00:00:24,408 --> 00:00:25,573
+37. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage"), firstName)
+
+11
+00:00:25,574 --> 00:00:26,745
+41. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033"), lastName)
+
+12
+00:00:26,745 --> 00:00:27,914
+45. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a"), phone)
+
+13
+00:00:27,914 --> 00:00:31,888
+49. selectOptionByLabel(findTestObject("FinalWeb/Page_Advantage Shopping/Select Country"), country, true)
+
+14
+00:00:31,888 --> 00:00:32,622
+53. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_Country_cityRegisterPage"), city)
+
+15
+00:00:32,622 --> 00:01:10,513
+57. setText(findTestObject("FinalWeb/Page_Advantage Shopping/address"), address)
+

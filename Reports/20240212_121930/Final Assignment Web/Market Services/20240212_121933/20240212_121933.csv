@@ -1,0 +1,92 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Market Services,Chrome 121.0.0.0,,,12-02-2024 12:22:17,12-02-2024 12:26:52,4m - 34.591s,FAILED
+,,,,,,,
+Test Cases/Final Assignment WEB/Add Product to Cart,Chrome 121.0.0.0,,,12-02-2024 12:22:17,12-02-2024 12:23:12,54.832s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 12:22:18,12-02-2024 12:22:19,1.574s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,12-02-2024 12:22:19,12-02-2024 12:22:21,1.890s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/div_SPEAKERS                        Shop Now""))",Chrome 121.0.0.0,,,12-02-2024 12:22:21,12-02-2024 12:22:28,6.860s,PASSED
+"mouseOver(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25""))",Chrome 121.0.0.0,,,12-02-2024 12:22:28,12-02-2024 12:22:34,5.920s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25""))",Chrome 121.0.0.0,,,12-02-2024 12:22:34,12-02-2024 12:22:34,0.348s,PASSED
+"if (color == ""tosca"")",Chrome 121.0.0.0,,,12-02-2024 12:22:34,12-02-2024 12:22:34,0.004s,PASSED
+"if (color == ""black"")",Chrome 121.0.0.0,,,12-02-2024 12:22:34,12-02-2024 12:22:34,0.002s,PASSED
+"if (color == ""red"")",Chrome 121.0.0.0,,,12-02-2024 12:22:34,12-02-2024 12:22:38,3.820s,PASSED
+"setText(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/address""), qty)",Chrome 121.0.0.0,,,12-02-2024 12:22:38,12-02-2024 12:23:10,31.847s,FAILED
+Video,Chrome 121.0.0.0,,,12-02-2024 12:23:12,12-02-2024 12:23:12,0.001s,PASSED
+,,,,,,,
+Test Cases/Final Assignment WEB/Add Product to Cart,Chrome 121.0.0.0,,,12-02-2024 12:23:12,12-02-2024 12:24:04,52.174s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 12:23:12,12-02-2024 12:23:13,0.784s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,12-02-2024 12:23:13,12-02-2024 12:23:17,3.548s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/div_SPEAKERS                        Shop Now""))",Chrome 121.0.0.0,,,12-02-2024 12:23:17,12-02-2024 12:23:21,4.735s,PASSED
+"mouseOver(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25""))",Chrome 121.0.0.0,,,12-02-2024 12:23:21,12-02-2024 12:23:27,5.631s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25""))",Chrome 121.0.0.0,,,12-02-2024 12:23:27,12-02-2024 12:23:27,0.325s,PASSED
+"if (color == ""tosca"")",Chrome 121.0.0.0,,,12-02-2024 12:23:27,12-02-2024 12:23:30,2.998s,PASSED
+"if (color == ""black"")",Chrome 121.0.0.0,,,12-02-2024 12:23:30,12-02-2024 12:23:30,0.001s,PASSED
+"if (color == ""red"")",Chrome 121.0.0.0,,,12-02-2024 12:23:30,12-02-2024 12:23:30,0.001s,PASSED
+else,Chrome 121.0.0.0,,,12-02-2024 12:23:30,12-02-2024 12:23:31,0.347s,PASSED
+"setText(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/address""), qty)",Chrome 121.0.0.0,,,12-02-2024 12:23:31,12-02-2024 12:24:02,31.705s,FAILED
+Video,Chrome 121.0.0.0,,,12-02-2024 12:24:04,12-02-2024 12:24:04,0.001s,PASSED
+,,,,,,,
+Test Cases/Final Assignment WEB/Add Product to Cart,Chrome 121.0.0.0,,,12-02-2024 12:24:04,12-02-2024 12:24:58,53.892s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 12:24:04,12-02-2024 12:24:05,0.771s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,12-02-2024 12:24:05,12-02-2024 12:24:09,3.577s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/div_SPEAKERS                        Shop Now""))",Chrome 121.0.0.0,,,12-02-2024 12:24:09,12-02-2024 12:24:14,4.800s,PASSED
+"mouseOver(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25""))",Chrome 121.0.0.0,,,12-02-2024 12:24:14,12-02-2024 12:24:20,6.202s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25""))",Chrome 121.0.0.0,,,12-02-2024 12:24:20,12-02-2024 12:24:20,0.332s,PASSED
+"if (color == ""tosca"")",Chrome 121.0.0.0,,,12-02-2024 12:24:20,12-02-2024 12:24:20,0.001s,PASSED
+"if (color == ""black"")",Chrome 121.0.0.0,,,12-02-2024 12:24:20,12-02-2024 12:24:24,4.086s,PASSED
+"if (color == ""red"")",Chrome 121.0.0.0,,,12-02-2024 12:24:24,12-02-2024 12:24:24,0.001s,PASSED
+else,Chrome 121.0.0.0,,,12-02-2024 12:24:24,12-02-2024 12:24:24,0.326s,PASSED
+"setText(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/address""), qty)",Chrome 121.0.0.0,,,12-02-2024 12:24:24,12-02-2024 12:24:56,31.688s,FAILED
+Video,Chrome 121.0.0.0,,,12-02-2024 12:24:58,12-02-2024 12:24:58,0.001s,PASSED
+,,,,,,,
+Test Cases/Final Assignment WEB/Payment,Chrome 121.0.0.0,,,12-02-2024 12:24:58,12-02-2024 12:25:34,35.418s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 12:24:58,12-02-2024 12:24:59,0.889s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,12-02-2024 12:24:59,12-02-2024 12:25:01,1.875s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,12-02-2024 12:25:01,12-02-2024 12:25:04,2.964s,PASSED
+"setText(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/input_OR_username""), username)",Chrome 121.0.0.0,,,12-02-2024 12:25:04,12-02-2024 12:25:06,1.365s,PASSED
+"setText(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password""), password)",Chrome 121.0.0.0,,,12-02-2024 12:25:06,12-02-2024 12:25:07,1.574s,PASSED
+"sendKeys(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password""), Keys.chord(ENTER))",Chrome 121.0.0.0,,,12-02-2024 12:25:07,12-02-2024 12:25:08,1.123s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/div_SPEAKERS                        Shop Now""))",Chrome 121.0.0.0,,,12-02-2024 12:25:08,12-02-2024 12:25:15,6.999s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25""))",Chrome 121.0.0.0,,,12-02-2024 12:25:15,12-02-2024 12:25:18,2.439s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/button_ADD TO CART""))",Chrome 121.0.0.0,,,12-02-2024 12:25:18,12-02-2024 12:25:23,5.739s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/button_CHECKOUT  (1,138.00)""))",Chrome 121.0.0.0,,,12-02-2024 12:25:23,12-02-2024 12:25:25,1.990s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/button_NEXT""))",Chrome 121.0.0.0,,,12-02-2024 12:25:25,12-02-2024 12:25:29,4.019s,PASSED
+"if (paymentMethod == ""safepay"")",Chrome 121.0.0.0,,,12-02-2024 12:25:29,12-02-2024 12:25:31,1.533s,PASSED
+"click(findTestObject(""FinalWeb/Page_Advantage Shopping/sec-sender_PAY NOW""))",Chrome 121.0.0.0,,,12-02-2024 12:25:31,12-02-2024 12:25:32,0.723s,FAILED
+Video,Chrome 121.0.0.0,,,12-02-2024 12:25:34,12-02-2024 12:25:34,0.001s,PASSED
+,,,,,,,
+Test Cases/Final Assignment WEB/Payment,Chrome 121.0.0.0,,,12-02-2024 12:25:34,12-02-2024 12:26:12,38.452s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 12:25:34,12-02-2024 12:25:35,0.800s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,12-02-2024 12:25:35,12-02-2024 12:25:38,3.238s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,12-02-2024 12:25:38,12-02-2024 12:25:44,6.196s,PASSED
+"setText(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/input_OR_username""), username)",Chrome 121.0.0.0,,,12-02-2024 12:25:44,12-02-2024 12:25:45,0.970s,PASSED
+"setText(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password""), password)",Chrome 121.0.0.0,,,12-02-2024 12:25:45,12-02-2024 12:25:46,1.425s,PASSED
+"sendKeys(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password""), Keys.chord(ENTER))",Chrome 121.0.0.0,,,12-02-2024 12:25:46,12-02-2024 12:25:47,0.529s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/div_SPEAKERS                        Shop Now""))",Chrome 121.0.0.0,,,12-02-2024 12:25:47,12-02-2024 12:25:48,1.249s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25""))",Chrome 121.0.0.0,,,12-02-2024 12:25:48,12-02-2024 12:25:51,2.420s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/button_ADD TO CART""))",Chrome 121.0.0.0,,,12-02-2024 12:25:51,12-02-2024 12:25:56,5.303s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/button_CHECKOUT  (1,138.00)""))",Chrome 121.0.0.0,,,12-02-2024 12:25:56,12-02-2024 12:25:58,2.024s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/button_NEXT""))",Chrome 121.0.0.0,,,12-02-2024 12:25:58,12-02-2024 12:26:01,3.288s,PASSED
+"if (paymentMethod == ""safepay"")",Chrome 121.0.0.0,,,12-02-2024 12:26:01,12-02-2024 12:26:01,0.001s,PASSED
+else,Chrome 121.0.0.0,,,12-02-2024 12:26:01,12-02-2024 12:26:07,6.101s,PASSED
+"click(findTestObject(""FinalWeb/Page_Advantage Shopping/sec-sender_PAY NOW""))",Chrome 121.0.0.0,,,12-02-2024 12:26:07,12-02-2024 12:26:08,0.566s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/span_Thank you for buying with Advantage""), ""Thank you for buying with Advantage"")",Chrome 121.0.0.0,,,12-02-2024 12:26:08,12-02-2024 12:26:10,2.290s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 12:26:12,12-02-2024 12:26:12,0.001s,PASSED
+,,,,,,,
+Test Cases/Final Assignment WEB/Payment,Chrome 121.0.0.0,,,12-02-2024 12:26:12,12-02-2024 12:26:52,39.377s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 12:26:12,12-02-2024 12:26:13,0.786s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,12-02-2024 12:26:13,12-02-2024 12:26:15,2.042s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,12-02-2024 12:26:15,12-02-2024 12:26:23,7.756s,PASSED
+"setText(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/input_OR_username""), username)",Chrome 121.0.0.0,,,12-02-2024 12:26:23,12-02-2024 12:26:24,0.894s,PASSED
+"setText(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password""), password)",Chrome 121.0.0.0,,,12-02-2024 12:26:24,12-02-2024 12:26:25,1.449s,PASSED
+"sendKeys(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password""), Keys.chord(ENTER))",Chrome 121.0.0.0,,,12-02-2024 12:26:25,12-02-2024 12:26:26,0.523s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/div_SPEAKERS                        Shop Now""))",Chrome 121.0.0.0,,,12-02-2024 12:26:26,12-02-2024 12:26:28,1.770s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25""))",Chrome 121.0.0.0,,,12-02-2024 12:26:28,12-02-2024 12:26:30,2.424s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/button_ADD TO CART""))",Chrome 121.0.0.0,,,12-02-2024 12:26:30,12-02-2024 12:26:35,5.077s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/button_CHECKOUT  (1,138.00)""))",Chrome 121.0.0.0,,,12-02-2024 12:26:35,12-02-2024 12:26:37,2.212s,PASSED
+"click(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/button_NEXT""))",Chrome 121.0.0.0,,,12-02-2024 12:26:37,12-02-2024 12:26:41,3.418s,PASSED
+"if (paymentMethod == ""safepay"")",Chrome 121.0.0.0,,,12-02-2024 12:26:41,12-02-2024 12:26:41,0.001s,PASSED
+else,Chrome 121.0.0.0,,,12-02-2024 12:26:41,12-02-2024 12:26:47,6.125s,PASSED
+"click(findTestObject(""FinalWeb/Page_Advantage Shopping/sec-sender_PAY NOW""))",Chrome 121.0.0.0,,,12-02-2024 12:26:47,12-02-2024 12:26:47,0.568s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FinalWeb/Page_Advantage Shopping/span_Thank you for buying with Advantage""), ""Thank you for buying with Advantage"")",Chrome 121.0.0.0,,,12-02-2024 12:26:47,12-02-2024 12:26:50,2.268s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 12:26:52,12-02-2024 12:26:52,0.001s,PASSED

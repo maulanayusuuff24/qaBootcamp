@@ -1,0 +1,44 @@
+1
+00:00:00,001 --> 00:00:00,774
+1. openBrowser("")
+
+2
+00:00:00,775 --> 00:00:02,673
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:02,674 --> 00:00:13,189
+9. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/div_SPEAKERS                        Shop Now"))
+
+4
+00:00:13,189 --> 00:00:27,160
+13. mouseOver(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25"))
+
+5
+00:00:27,160 --> 00:00:27,483
+17. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25"))
+
+6
+00:00:27,483 --> 00:00:27,484
+21. if (color == "tosca")
+
+7
+00:00:27,485 --> 00:00:27,486
+25. if (color == "black")
+
+8
+00:00:27,487 --> 00:00:31,194
+1. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/span_Color_black"))
+
+9
+00:00:31,194 --> 00:00:31,196
+29. if (color == "red")
+
+10
+00:00:31,196 --> 00:00:31,521
+2. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/span_Color_blue"))
+
+11
+00:00:31,521 --> 00:01:03,186
+33. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/address"), qty)
+

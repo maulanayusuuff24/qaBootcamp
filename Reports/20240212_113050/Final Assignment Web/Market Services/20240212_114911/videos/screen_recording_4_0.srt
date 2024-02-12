@@ -1,0 +1,60 @@
+1
+00:00:00,124 --> 00:00:01,002
+1. openBrowser("")
+
+2
+00:00:01,003 --> 00:00:05,022
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:05,023 --> 00:00:11,367
+9. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:11,368 --> 00:00:12,356
+13. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_OR_username"), username)
+
+5
+00:00:12,356 --> 00:00:13,869
+17. setText(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password"), password)
+
+6
+00:00:13,870 --> 00:00:14,365
+21. sendKeys(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password"), Keys.chord(ENTER))
+
+7
+00:00:14,367 --> 00:00:36,131
+25. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/div_SPEAKERS                        Shop Now"))
+
+8
+00:00:36,132 --> 00:00:38,669
+29. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25"))
+
+9
+00:00:38,669 --> 00:00:43,514
+33. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/button_ADD TO CART"))
+
+10
+00:00:43,514 --> 00:00:45,507
+37. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/button_CHECKOUT  (1,138.00)"))
+
+11
+00:00:45,508 --> 00:00:50,545
+41. click(findTestObject("Object Repository/FinalWeb/Page_Advantage Shopping/button_NEXT"))
+
+12
+00:00:50,546 --> 00:00:50,549
+45. if (paymentMethod == "safepay")
+
+13
+00:00:50,550 --> 00:00:51,466
+1. setText(findTestObject("FinalWeb/Page_Advantage Shopping/input__safepay_username"), "uname")
+
+14
+00:00:51,467 --> 00:00:52,016
+5. setEncryptedText(findTestObject("FinalWeb/Page_Advantage Shopping/input__safepay_password"), "c5s7CZtvJJc=")
+
+15
+00:00:52,017 --> 00:00:52,760
+49. click(findTestObject("FinalWeb/Page_Advantage Shopping/sec-sender_PAY NOW"))
+

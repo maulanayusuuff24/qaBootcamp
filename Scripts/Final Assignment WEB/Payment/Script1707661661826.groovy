@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://advantageonlineshopping.com/')
+WebUI.navigateToUrl(GlobalVariable.webfinal)
 
 WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser'))
 
@@ -44,6 +44,8 @@ if (paymentMethod == 'safepay') {
     WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/input__safepay_username'), 'uname')
 
     WebUI.setEncryptedText(findTestObject('FinalWeb/Page_Advantage Shopping/input__safepay_password'), 'c5s7CZtvJJc=')
+
+    WebUI.click(findTestObject('FinalWeb/Page_Advantage Shopping/button_PAY NOW_PAY'))
 } else {
     WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/MasterCredit'))
 
@@ -56,9 +58,10 @@ if (paymentMethod == 'safepay') {
     WebUI.selectOptionByLabel(findTestObject('FinalWeb/Page_Advantage Shopping/yyyyExp'), expYear, false)
 
     WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/input__cardholder_name'), username)
+	WebUI.click(findTestObject('FinalWeb/Page_Advantage Shopping/sec-sender_PAY NOW'))
 }
 
-WebUI.click(findTestObject('FinalWeb/Page_Advantage Shopping/sec-sender_PAY NOW'))
+
 
 WebUI.verifyElementText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/span_Thank you for buying with Advantage'), 
     'Thank you for buying with Advantage')

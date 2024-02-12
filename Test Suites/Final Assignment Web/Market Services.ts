@@ -21,7 +21,7 @@
          <id>128d4b3a-0ac4-4eb4-b5ac-654368c74b65</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/FinalProjWeb1-Login</testDataId>
       </testDataLink>
@@ -38,6 +38,18 @@
          <value>qty</value>
          <variableId>5b275b48-edd9-4053-8cba-94c6d8c26a85</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>128d4b3a-0ac4-4eb4-b5ac-654368c74b65</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>0e871aca-719d-429f-8a09-ba88ec673d4e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>128d4b3a-0ac4-4eb4-b5ac-654368c74b65</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>2502f64a-33a7-4e3d-b1c4-746f2d7f1d34</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3899ae6e-eede-4305-84a3-a05c7a7049eb</guid>
@@ -49,7 +61,7 @@
          <id>8cafddd5-ca86-45e9-a1ee-2ba08336ce21</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/FinalProjWeb1-Login</testDataId>
       </testDataLink>

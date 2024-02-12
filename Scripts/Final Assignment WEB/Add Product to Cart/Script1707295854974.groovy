@@ -23,14 +23,14 @@ WebUI.navigateToUrl(GlobalVariable.webfinal)
 
 WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser'))
 
-WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input_OR_username'), username)
+WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/input_OR_username'), username)
 
-WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password'), password)
+WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/input_Username_password'), password)
 
 WebUI.sendKeys(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password'), Keys.chord(
         Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/div_SPEAKERS                        Shop Now'))
+WebUI.click(findTestObject('FinalWeb/Page_Advantage Shopping/div_SPEAKERS'))
 
 WebUI.mouseOver(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/img_SHOP NOW_25'))
 

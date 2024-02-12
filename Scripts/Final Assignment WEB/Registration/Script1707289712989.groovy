@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/s
 
 WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/a_CREATE NEW ACCOUNT'))
 
-WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/input__usernameRegisterPage (1)'), username)
+WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/input__usernameRegisterPage'), username)
 
 WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input__emailRegisterPage'), email)
 

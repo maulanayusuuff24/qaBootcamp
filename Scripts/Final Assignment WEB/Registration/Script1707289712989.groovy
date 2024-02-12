@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/s
 
 WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/a_CREATE NEW ACCOUNT'))
 
-WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input__usernameRegisterPage'), username)
+WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/input__usernameRegisterPage (1)'), username)
 
 WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input__emailRegisterPage'), email)
 
@@ -47,9 +47,9 @@ WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping
 
 WebUI.selectOptionByLabel(findTestObject('FinalWeb/Page_Advantage Shopping/Select Country'), country, true)
 
-WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input_Country_cityRegisterPage'), city)
+WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/input_Country_cityRegisterPage'), city)
 
-WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/address'), address)
+WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/AlamatRumah (1)'), address)
 
 WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54'), 
     state)

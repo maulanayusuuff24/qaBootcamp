@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_PAY NOW</name>
+   <name>button_PAY NOW_PAY</name>
    <tag></tag>
-   <elementGuidId>22e57557-ea02-42c1-956a-273da9a2c4bc</elementGuidId>
+   <elementGuidId>3a4b0b98-b9e2-4b0b-9a3c-1c713a1110af</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#pay_now_btn_ManualPayment</value>
+         <value>#pay_now_btn_SAFEPAY</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='pay_now_btn_ManualPayment']</value>
+         <value>//button[@id='pay_now_btn_SAFEPAY']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4c5686a8-71f9-4e7c-ab84-24085d47af13</webElementGuid>
+      <webElementGuid>4ac2d57f-5797-4bb9-865c-72ca6164504a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>pay_now_btn_ManualPayment</value>
-      <webElementGuid>b31275c9-9135-4666-9d80-126fe4d0c169</webElementGuid>
+      <value>pay_now_btn_SAFEPAY</value>
+      <webElementGuid>357c5a2f-1b65-4f37-8084-18f69371356c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b39eb788-8dc8-46e5-8e3a-80d2c84deb84</webElementGuid>
+      <webElementGuid>80c9b761-3ec8-480c-9d8e-22e738099f0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sec-sender-a ng-scope</value>
-      <webElementGuid>55d286f7-2675-45e2-b43b-69d711036b9c</webElementGuid>
+      <webElementGuid>9b1d5606-0509-4f1a-a8d6-6cc376e57cc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ef35459e-9bd9-497e-8a02-0e64a342d419</webElementGuid>
+      <webElementGuid>0a52cb81-b106-4b4f-88a1-0375940995f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-ng-click</name>
       <type>Main</type>
       <value>senderCtrl.send()</value>
-      <webElementGuid>525c6d2e-e799-400d-9339-b5a944c2753a</webElementGuid>
+      <webElementGuid>27640f25-36a3-4afe-9765-463114162f31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,87 +70,23 @@
       <name>text</name>
       <type>Main</type>
       <value>PAY NOW</value>
-      <webElementGuid>75748b82-5580-40d6-9e62-67398ce6e239</webElementGuid>
+      <webElementGuid>cb68bd35-69a5-4e4a-a39f-33a84a81377f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pay_now_btn_ManualPayment&quot;)</value>
-      <webElementGuid>e95c5026-0f0c-47b1-8162-9d7d6985ecfc</webElementGuid>
+      <value>id(&quot;pay_now_btn_SAFEPAY&quot;)</value>
+      <webElementGuid>5324e66a-8e19-4027-a0d6-da27d5634c46</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='pay_now_btn_ManualPayment']</value>
-      <webElementGuid>2eb5efeb-b78b-4f88-9a3a-d346a3c9a8b0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='paymentMethod']/div/div[4]/sec-form/div[4]/label/sec-sender/button</value>
-      <webElementGuid>7fdbb8cf-40e3-4fe3-b844-00e7b5f2061d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to shipping details'])[3]/following::button[1]</value>
-      <webElementGuid>fb51d955-873e-438b-8ae4-d1c2a3e1a566</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save changes in profile for future use'])[3]/following::button[1]</value>
-      <webElementGuid>4b08a4fe-0577-49a1-a5c8-8631c920ed63</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ORDER SUMMARY'])[1]/preceding::button[1]</value>
-      <webElementGuid>00f23221-5c1f-4d0e-89de-7b4bfeca10fb</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='PRODUCT'])[1]/preceding::button[1]</value>
-      <webElementGuid>2271c66d-b0af-4bf7-9e92-90c73f74f6b6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[4]/label/sec-sender/button</value>
-      <webElementGuid>0ab8e7ca-6f61-4289-8053-78fab9ea80fd</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@id = 'pay_now_btn_ManualPayment' and @type = 'button' and (text() = 'PAY NOW' or . = 'PAY NOW')]</value>
-      <webElementGuid>9609c31a-4fd7-48c0-aefa-c13a5bf2a3c6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
       <value>//button[@id='pay_now_btn_SAFEPAY']</value>
-      <webElementGuid>dfb973ae-d582-436c-950c-a8485f58f280</webElementGuid>
+      <webElementGuid>5be15a0f-16bb-4576-bfc3-4ccb1a3f0723</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//sec-sender[@id='payNowSPDrtv']/button</value>
-      <webElementGuid>f66288aa-2d72-4571-b28e-feddbbc12fde</webElementGuid>
+      <webElementGuid>dc9cfefa-d7ed-496c-8286-e88c093c5f4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to shipping details'])[1]/following::button[1]</value>
-      <webElementGuid>03134df3-8c22-4bd0-bd08-ba167dbeb2c5</webElementGuid>
+      <webElementGuid>aaa573cf-e6ab-4f8c-a6da-da69c28d3456</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save changes in profile for future use'])[2]/following::button[1]</value>
-      <webElementGuid>f2fbb818-9fe4-41fe-a8b7-9cd7c19dec76</webElementGuid>
+      <webElementGuid>669f9d36-727c-44ff-be62-210df1986fb6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -182,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='MasterCredit'])[1]/preceding::button[1]</value>
-      <webElementGuid>efffe4f2-9628-40a5-b5e4-5f7b8db5553a</webElementGuid>
+      <webElementGuid>382834c6-e430-4688-be08-6a163e341355</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -190,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::button[1]</value>
-      <webElementGuid>d2b74214-334b-4292-bfed-ba9cfb51e853</webElementGuid>
+      <webElementGuid>3e16c245-60ac-4326-804c-39372da28c47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -198,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='PAY NOW']/parent::*</value>
-      <webElementGuid>00ab205f-039a-4b4d-9bd6-4dd5968ebe43</webElementGuid>
+      <webElementGuid>0975d323-533d-43bd-b3b8-ae88a4ca05fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -206,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/sec-sender/button</value>
-      <webElementGuid>f90d56cb-27bb-4a7c-9758-4dcdd25c54a7</webElementGuid>
+      <webElementGuid>7dca8ed6-6aed-4ed9-ac92-9d23e064f93a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -214,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'pay_now_btn_SAFEPAY' and @type = 'button' and (text() = 'PAY NOW' or . = 'PAY NOW')]</value>
-      <webElementGuid>b1beb82d-4989-4820-8fc7-c9cc6b326188</webElementGuid>
+      <webElementGuid>21bf10bc-5975-4961-988f-39926dd9d57f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

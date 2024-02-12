@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;safepay_password&quot;]</value>
+         <value>input[name=&quot;cvv_number&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//input[@name='cvv_number']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>f7d7cdd1-e486-40e7-8e47-b0e859417267</webElementGuid>
+      <webElementGuid>40e89124-549f-436f-b113-8f1e8d3217b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>safepay_password</value>
-      <webElementGuid>46d5f54f-955f-49e1-8d4d-d4d24b361307</webElementGuid>
+      <value>cvv_number</value>
+      <webElementGuid>9090b790-ef79-49ba-85e2-944cf92ac0f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>d5577fcb-df69-4df0-b3a5-818ebad2d122</webElementGuid>
+      <value>text</value>
+      <webElementGuid>73d5d9bf-6eb2-4840-94e8-08ef938f9f3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-ng-model</name>
       <type>Main</type>
       <value>secModel</value>
-      <webElementGuid>57b7e54e-1b49-4b16-b117-18ba0e79f25d</webElementGuid>
+      <webElementGuid>4c4bc3c4-b7b8-4931-adf0-0b57aacf667b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +54,15 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-pristine ng-untouched ng-valid ng-scope</value>
-      <webElementGuid>9bac5afd-a907-4c19-9f90-97c57041d88f</webElementGuid>
+      <webElementGuid>6508bd62-e622-480e-9d0f-534db4a7a9a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;paymentMethod&quot;)/div[1]/div[2]/sec-form[@class=&quot;ng-isolate-scope secForm&quot;]/sec-view[@class=&quot;ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope&quot;]</value>
-      <webElementGuid>273a9df8-96c1-4829-97d7-bc9be33ef100</webElementGuid>
+      <value>id(&quot;paymentMethod&quot;)/div[1]/div[4]/sec-form[@class=&quot;ng-isolate-scope secForm&quot;]/div[@class=&quot;spliter&quot;]/sec-view[@class=&quot;creditCard ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope&quot;]</value>
+      <webElementGuid>13dc2755-390f-42c1-bca8-96bca23917f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,71 @@
       <webElementGuid>33014142-8802-4fbc-9272-fd20425c5fa2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='cvv_number']</value>
+      <webElementGuid>5a0632dd-78aa-4372-8f2d-623961ec1036</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='paymentMethod']/div/div[4]/sec-form/div/sec-view[2]/div/input</value>
+      <webElementGuid>46b1e88d-ed06-4145-b300-6d81a94079c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/sec-form/div/sec-view[2]/div/input</value>
+      <webElementGuid>91a8c3b2-4b68-4e3b-bb4e-605bf53d0848</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'cvv_number' and @type = 'text']</value>
+      <webElementGuid>9d7692bd-f279-4b15-9663-da75f1907228</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='cardholder_name']</value>
+      <webElementGuid>ab795240-3d27-49a6-851c-9e946ea49000</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='paymentMethod']/div/div[4]/sec-form/div[2]/sec-view/div/input</value>
+      <webElementGuid>e0e32fa3-b7f4-4910-a077-5de3b5006319</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/sec-form/div[2]/sec-view/div/input</value>
+      <webElementGuid>8c6b464f-2253-4e3a-96cb-e90b3fea7f87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'cardholder_name' and @type = 'text']</value>
+      <webElementGuid>ab1ee6cf-d8d0-4cdd-a5cf-ea0a08c3e790</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

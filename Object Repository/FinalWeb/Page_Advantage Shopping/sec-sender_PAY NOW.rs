@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>sec-sender_PAY NOW</name>
+   <tag></tag>
+   <elementGuidId>89653fc6-53aa-446e-87bd-3d027bc4fa0c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(4) > sec-form.ng-isolate-scope.secForm > div.blueLink > label.float_right > sec-sender.roboto-medium.ng-isolate-scope.sec-sender</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='paymentMethod']/div/div[4]/sec-form/div[4]/label/sec-sender</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>sec-sender</value>
+      <webElementGuid>3cb56a9b-8f0e-46a3-b54e-09d80c44212c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>roboto-medium ng-isolate-scope sec-sender</value>
+      <webElementGuid>509c0568-6ad7-4ed8-bedc-2c541c5b429f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>a-value</name>
+      <type>Main</type>
+      <value>PAY NOW</value>
+      <webElementGuid>d5068da1-b31d-4a6e-82c5-aa1ecc5b2221</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>a-hint</name>
+      <type>Main</type>
+      <value>_ManualPayment</value>
+      <webElementGuid>b8c40511-0201-4a4f-8b85-1294ce650039</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sec-send</name>
+      <type>Main</type>
+      <value>payNow_masterCredit()</value>
+      <webElementGuid>11b6a55b-800d-4ad6-b12d-9d020e76ab7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PAY NOW</value>
+      <webElementGuid>2dbe7db6-0eb1-40a9-823a-81380491bfe4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;paymentMethod&quot;)/div[1]/div[4]/sec-form[@class=&quot;ng-isolate-scope secForm&quot;]/div[@class=&quot;blueLink&quot;]/label[@class=&quot;float_right&quot;]/sec-sender[@class=&quot;roboto-medium ng-isolate-scope sec-sender&quot;]</value>
+      <webElementGuid>1b10ae41-dda2-4c78-9ee5-aac1cb4fe7a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='paymentMethod']/div/div[4]/sec-form/div[4]/label/sec-sender</value>
+      <webElementGuid>9a79a12b-456d-4213-a697-b9a3cc77d720</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to shipping details'])[3]/following::sec-sender[1]</value>
+      <webElementGuid>2a4e466c-a988-4e91-903f-25759ca90861</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save changes in profile for future use'])[3]/following::sec-sender[1]</value>
+      <webElementGuid>49f81d9d-9806-482e-9b9b-534c88bcad61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ORDER SUMMARY'])[1]/preceding::sec-sender[1]</value>
+      <webElementGuid>aafa814d-966e-41d6-8c22-b3a79da86514</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/label/sec-sender</value>
+      <webElementGuid>d1d66110-b87a-4b9e-950d-6b8d0925dc22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//sec-sender[(text() = 'PAY NOW' or . = 'PAY NOW')]</value>
+      <webElementGuid>917141be-017b-4ca8-b528-755628400479</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -23,9 +23,9 @@ WebUI.navigateToUrl('https://advantageonlineshopping.com/')
 
 WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser'))
 
-WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input_OR_username'), 'namuu')
+WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input_OR_username'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password'), 'c5s7CZtvJJc=')
+WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password'), password)
 
 WebUI.sendKeys(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/input_Username_password'), Keys.chord(
         Keys.ENTER))
@@ -40,17 +40,25 @@ WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/b
 
 WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/button_NEXT'))
 
-WebUI.mouseOver(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/Safepay'))
+if (paymentMethod == 'safepay') {
+    WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/input__safepay_username'), 'uname')
 
-WebUI.mouseOver(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/MasterCredit'))
+    WebUI.setEncryptedText(findTestObject('FinalWeb/Page_Advantage Shopping/input__safepay_password'), 'c5s7CZtvJJc=')
+} else {
+    WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/MasterCredit'))
 
-WebUI.mouseOver(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/span_1,188.00'))
+    WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/input__card_number'), cardNumber)
 
-WebUI.setText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/address'), 'uname')
+    WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/cvvNumber'), cvv)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/address'), 'c5s7CZtvJJc=')
+    WebUI.selectOptionByValue(findTestObject('FinalWeb/Page_Advantage Shopping/mmExp'), expMonth, false)
 
-WebUI.click(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/button_PAY NOW'))
+    WebUI.selectOptionByLabel(findTestObject('FinalWeb/Page_Advantage Shopping/yyyyExp'), expYear, false)
+
+    WebUI.setText(findTestObject('FinalWeb/Page_Advantage Shopping/input__cardholder_name'), username)
+}
+
+WebUI.click(findTestObject('FinalWeb/Page_Advantage Shopping/sec-sender_PAY NOW'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/FinalWeb/Page_Advantage Shopping/span_Thank you for buying with Advantage'), 
     'Thank you for buying with Advantage')

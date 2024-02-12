@@ -11,23 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>df415957-ef0c-4a7f-8b09-54581569c8dc</testSuiteGuid>
-   <testCaseLink>
-      <guid>d674ec7c-035e-4b07-b738-566cc7cbbda7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Login</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>12d4e1ae-c43c-4d40-8e38-21e56fdc1783</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1e36038a-6f09-4488-8785-6f32191616e6</variableId>
-      </variableLink>
-   </testCaseLink>
 </TestSuiteEntity>

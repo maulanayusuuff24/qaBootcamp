@@ -9,74 +9,92 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>true</rerunImmediately>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>27a52ac8-4ae9-4d61-ad8f-08f8fb23c22d</testSuiteGuid>
-   <testCaseLink>
-      <guid>3899ae6e-eede-4305-84a3-a05c7a7049eb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Final Assignment WEB/Payment</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f54f93c3-08e2-4bf7-aa9c-62bbed90eb3d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4a44f23f-b984-4a53-8cf4-81ea4ce85970</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>18b4f86c-3f02-4589-89db-3d3932b16fa2</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1bb1ab1f-76ae-420c-89bd-aff7a0278538</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d793ec4e-d3ab-45bc-af3a-ab199e2d6c9a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6b1cd93e-cdf2-4b72-8cdd-bdcd8892b6de</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>639c3a00-6b69-4a59-afa5-24eaf0a86e41</variableId>
-      </variableLink>
-   </testCaseLink>
    <testCaseLink>
       <guid>32596fb2-5ddf-4096-98a2-61bce5c39118</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Final Assignment WEB/Add Product to Cart</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>128d4b3a-0ac4-4eb4-b5ac-654368c74b65</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FinalProjWeb1-Login</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>128d4b3a-0ac4-4eb4-b5ac-654368c74b65</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>color</value>
          <variableId>02e4cac5-efeb-4978-9b9b-19826d4daff5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>128d4b3a-0ac4-4eb4-b5ac-654368c74b65</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>qty</value>
          <variableId>5b275b48-edd9-4053-8cba-94c6d8c26a85</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3899ae6e-eede-4305-84a3-a05c7a7049eb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Final Assignment WEB/Payment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8cafddd5-ca86-45e9-a1ee-2ba08336ce21</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FinalProjWeb1-Login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>8cafddd5-ca86-45e9-a1ee-2ba08336ce21</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>f54f93c3-08e2-4bf7-aa9c-62bbed90eb3d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8cafddd5-ca86-45e9-a1ee-2ba08336ce21</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>4a44f23f-b984-4a53-8cf4-81ea4ce85970</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8cafddd5-ca86-45e9-a1ee-2ba08336ce21</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>paymentMethod</value>
+         <variableId>18b4f86c-3f02-4589-89db-3d3932b16fa2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8cafddd5-ca86-45e9-a1ee-2ba08336ce21</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>cardNumber</value>
+         <variableId>1bb1ab1f-76ae-420c-89bd-aff7a0278538</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8cafddd5-ca86-45e9-a1ee-2ba08336ce21</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>cvv</value>
+         <variableId>d793ec4e-d3ab-45bc-af3a-ab199e2d6c9a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8cafddd5-ca86-45e9-a1ee-2ba08336ce21</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expMonth</value>
+         <variableId>6b1cd93e-cdf2-4b72-8cdd-bdcd8892b6de</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8cafddd5-ca86-45e9-a1ee-2ba08336ce21</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expYear</value>
+         <variableId>639c3a00-6b69-4a59-afa5-24eaf0a86e41</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
